@@ -4,4 +4,4 @@ This repository exists only to provide a convenient target for my sample project
 
 ## Data sources
 A partial list of where these datasets were originally sourced:
-* https://www.kaggle.com/shaivyac/us-airline-dataset
+* https://openflights.org/data.html
