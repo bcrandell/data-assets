@@ -215,10 +215,28 @@
     </mxGraphModel>
   </diagram>
   <diagram name="complex jsi-flow" id="hD9k3uiiF7m_xtEvz6hj">
-    <mxGraphModel dx="1434" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-0" />
         <mxCell id="0eLeI9AKKyFph5q9KkOW-1" parent="0eLeI9AKKyFph5q9KkOW-0" />
+        <mxCell id="M3EQ_RACUWfIjs4AsgwI-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=4;fillColor=#f5f5f5;strokeColor=#CFCFCF;" edge="1" parent="0eLeI9AKKyFph5q9KkOW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158.1270588235294" y="417.5" as="sourcePoint" />
+            <mxPoint x="1560" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M3EQ_RACUWfIjs4AsgwI-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=4;fillColor=#f5f5f5;strokeColor=#CFCFCF;" edge="1" parent="0eLeI9AKKyFph5q9KkOW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168.1270588235294" y="480.5" as="sourcePoint" />
+            <mxPoint x="1570" y="483" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M3EQ_RACUWfIjs4AsgwI-0" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=4;fillColor=#f5f5f5;strokeColor=#CFCFCF;" edge="1" parent="0eLeI9AKKyFph5q9KkOW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158.1270588235294" y="265" as="sourcePoint" />
+            <mxPoint x="1570" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="Example diagram for a workflow with a simpler branching model:" link="https://nvie.com/posts/a-successful-git-branching-model/" id="0eLeI9AKKyFph5q9KkOW-2">
           <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
             <mxGeometry x="90" y="60" width="542.25" height="30" as="geometry" />
@@ -351,7 +369,7 @@
           <mxGeometry x="205" y="160" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-42" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=#EA6B66;strokeColor=#B85450;fillColor=#F8CECC;" parent="0eLeI9AKKyFph5q9KkOW-40" vertex="1">
-          <mxGeometry x="70.5" y="52" width="30" height="30" as="geometry" />
+          <mxGeometry x="70.5" y="65" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;gradientColor=none;strokeColor=#000000;fillColor=#99FFCC;" parent="0eLeI9AKKyFph5q9KkOW-40" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
@@ -360,7 +378,7 @@
           <mxGeometry x="205" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-45" value="PR/CR" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeWidth=3;position2=0.25;size=20;position=0.4;base=14;fillColor=#F8CECC;strokeColor=#B85450;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=10;fontColor=default;gradientColor=#EA6B66;spacing=0;" parent="0eLeI9AKKyFph5q9KkOW-40" vertex="1">
-          <mxGeometry x="125" y="57" width="40" height="40" as="geometry" />
+          <mxGeometry x="125" y="70" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-46" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;fontFamily=Courier New;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="0eLeI9AKKyFph5q9KkOW-40" source="0eLeI9AKKyFph5q9KkOW-43" target="0eLeI9AKKyFph5q9KkOW-42" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -383,7 +401,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-51" value="Hotfix Branch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="0eLeI9AKKyFph5q9KkOW-40" vertex="1">
-          <mxGeometry x="45.5" y="79" width="80" height="30" as="geometry" />
+          <mxGeometry x="45.5" y="92" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0eLeI9AKKyFph5q9KkOW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;curved=1;" parent="0eLeI9AKKyFph5q9KkOW-1" source="0eLeI9AKKyFph5q9KkOW-38" target="0eLeI9AKKyFph5q9KkOW-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -509,7 +527,7 @@
         <mxCell id="fJ4NP_wwvzKIkrB_VY5m-2" value="/feature" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
           <mxGeometry x="70" y="427" width="186.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fJ4NP_wwvzKIkrB_VY5m-3" value="main development branch&lt;div&gt;&lt;i&gt;(permanent)&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#009900;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
+        <mxCell id="fJ4NP_wwvzKIkrB_VY5m-3" value="main development branch&lt;div&gt;&lt;i&gt;(permanent branch)&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#009900;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
           <mxGeometry x="70.25" y="360" width="197.75" height="43" as="geometry" />
         </mxCell>
         <mxCell id="fJ4NP_wwvzKIkrB_VY5m-4" value="one branch per feature&lt;div&gt;&lt;i&gt;(short-lived branches)&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#009900;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
@@ -519,10 +537,10 @@
           <mxGeometry x="69.93" y="350" width="38.13" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fJ4NP_wwvzKIkrB_VY5m-6" value="hotfix" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
-          <mxGeometry x="70" y="249" width="54" height="20" as="geometry" />
+          <mxGeometry x="70" y="253" width="54" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fJ4NP_wwvzKIkrB_VY5m-7" value="severe bugs fixed in production&lt;div&gt;&lt;i&gt;(short-lived branches)&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#009900;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
-          <mxGeometry x="70" y="260" width="210" height="40" as="geometry" />
+          <mxGeometry x="70" y="262" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fJ4NP_wwvzKIkrB_VY5m-8" value="latest code released to production&lt;div&gt;&lt;i&gt;(permanent branch)&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#009900;" parent="0eLeI9AKKyFph5q9KkOW-1" vertex="1">
           <mxGeometry x="70.25" y="200" width="217.75" height="40" as="geometry" />
